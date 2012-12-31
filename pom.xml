@@ -124,6 +124,7 @@
     <profile>
        <id>withContrib</id>
        <modules>
+        <module>contrib/edia-opensocial</module>
         <module>contrib/ldap</module>
         <!-- <module>contrib/import</module> -->
         <module>contrib/filters</module>
