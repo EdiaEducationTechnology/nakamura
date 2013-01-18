@@ -67,7 +67,7 @@ public class PersonServiceServlet extends SlingAllMethodsServlet {
 
 			write.array();
 
-			String q = "contactstorepath:a\\:" + st.getGadgetOwner() + "/contacts AND resourceType:sakai/contact AND state:(ACCEPTED)";
+			String q = "contactstorepath:a\\:" + st.getGadgetOwner() + "\\/contacts AND resourceType:sakai\\/contact AND state:(ACCEPTED)";
 			Query query = new Query(q);
 			try {
 
